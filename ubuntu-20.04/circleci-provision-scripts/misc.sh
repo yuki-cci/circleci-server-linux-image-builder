@@ -38,7 +38,7 @@ function install_socat() {
 }
 
 function install_nsenter() {
-    apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf automake autopoint libtool
+    apt-get install build-essential libncurses5-dev libslang2-dev gettext zlib1g-dev libselinux1-dev debhelper lsb-release pkg-config po-debconf autoconf automake autopoint libtool flex
     pushd /tmp
     #git clone git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git util-linux
     git clone --depth 1 --branch stable/v2.40 git://git.kernel.org/pub/scm/utils/util-linux/util-linux.git util-linux
