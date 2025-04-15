@@ -59,7 +59,7 @@ builders:
   instance_type: "t3a.medium"
   ami_name: "ubuntu-2004-vm-circleci-classic-{{timestamp}}"
   ssh_username: "circleci"
-  ami_groups: "all"
+  #ami_groups: "all"
   launch_block_device_mappings:
     - device_name: "/dev/sda1"
       volume_size: 10
